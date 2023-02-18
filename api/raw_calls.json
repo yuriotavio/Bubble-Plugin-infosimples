@@ -1,0 +1,138 @@
+{
+    "calls": {
+        "AAC": {
+            "initialized": true,
+            "method": "get",
+            "name": "Certidão nada consta TRF1",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1676752063893x765959312585523200.plugin_api.AAC",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"Certidão nada consta TRF1\",\"fields\":{\"_p_code\":{\"ret_value\":\"number\",\"caption\":\"code\",\"sample_value\":200,\"path\":[\"code\"]},\"_p_code_message\":{\"ret_value\":\"text\",\"caption\":\"code_message\",\"sample_value\":\"A requisição foi processada com sucesso.\",\"path\":[\"code_message\"]},\"_p_header.api_version\":{\"ret_value\":\"text\",\"caption\":\"header api_version\",\"sample_value\":\"v2\",\"path\":[\"header\",\"api_version\"]},\"_p_header.service\":{\"ret_value\":\"text\",\"caption\":\"header service\",\"sample_value\":\"tribunal/trf1/certidao\",\"path\":[\"header\",\"service\"]},\"_p_header.parameters.cnpj\":{\"ret_value\":\"text\",\"caption\":\"header parameters cnpj\",\"sample_value\":\"11111111111111\",\"path\":[\"header\",\"parameters\",\"cnpj\"]},\"_p_header.parameters.tipo\":{\"ret_value\":\"text\",\"caption\":\"header parameters tipo\",\"sample_value\":\"CIVEL\",\"path\":[\"header\",\"parameters\",\"tipo\"]},\"_p_header.client_name\":{\"ret_value\":\"text\",\"caption\":\"header client_name\",\"sample_value\":\"Minha Empresa\",\"path\":[\"header\",\"client_name\"]},\"_p_header.token_name\":{\"ret_value\":\"text\",\"caption\":\"header token_name\",\"sample_value\":\"Token de Produção\",\"path\":[\"header\",\"token_name\"]},\"_p_header.billable\":{\"ret_value\":\"boolean\",\"caption\":\"header billable\",\"sample_value\":true,\"path\":[\"header\",\"billable\"]},\"_p_header.price\":{\"ret_value\":\"text\",\"caption\":\"header price\",\"sample_value\":\"0.24\",\"path\":[\"header\",\"price\"]},\"_p_header.requested_at\":{\"ret_value\":\"text\",\"caption\":\"header requested_at\",\"sample_value\":\"2021-10-05T18:53:44.000-03:00\",\"path\":[\"header\",\"requested_at\"]},\"_p_header.elapsed_time_in_milliseconds\":{\"ret_value\":\"number\",\"caption\":\"header elapsed_time_in_milliseconds\",\"sample_value\":7192,\"path\":[\"header\",\"elapsed_time_in_milliseconds\"]},\"_p_header.remote_ip\":{\"ret_value\":\"text\",\"caption\":\"header remote_ip\",\"sample_value\":\"111.111.111.111\",\"path\":[\"header\",\"remote_ip\"]},\"_p_header.signature\":{\"ret_value\":\"text\",\"caption\":\"header signature\",\"sample_value\":\"U2FsdGVkX19u2YyIMGcLsaGws1368vKZHGS8lT3SEEYJXnLPuuHGqp7XVcG+V5nIr7fmoYq7tfHWLXMt92RdlQ==\",\"path\":[\"header\",\"signature\"]},\"_p_data_count\":{\"ret_value\":\"number\",\"caption\":\"data_count\",\"sample_value\":1,\"path\":[\"data_count\"]},\"_p_data\":{\"ret_value\":\"list.api.1676752063893x765959312585523200.plugin_api.AAC.data\",\"caption\":\"data\",\"path\":[\"data\"]},\"_p_site_receipts\":{\"ret_value\":\"list.text\",\"caption\":\"site_receipts\",\"sample_value\":\"https://www.exemplo.com/exemplo-de-url\",\"path\":[\"site_receipts\"]}}},\"plugin_api.AAC.data\":{\"caption\":\"Certidão nada consta TRF1 data\",\"fields\":{\"_p_certidao_codigo\":{\"ret_value\":\"text\",\"caption\":\"certidao_codigo\",\"sample_value\":\"11111111\",\"path\":[\"certidao_codigo\"]},\"_p_certidao_codigo_com_ano\":{\"ret_value\":\"text\",\"caption\":\"certidao_codigo_com_ano\",\"sample_value\":\"11111111/1111\",\"path\":[\"certidao_codigo_com_ano\"]},\"_p_codigo_validacao\":{\"ret_value\":\"text\",\"caption\":\"codigo_validacao\",\"sample_value\":\"DEC1 FC11 C1E1 11F1 D1AE 1111 B1E1 11D1\",\"path\":[\"codigo_validacao\"]},\"_p_conseguiu_emitir_certidao_negativa\":{\"ret_value\":\"boolean\",\"caption\":\"conseguiu_emitir_certidao_negativa\",\"sample_value\":true,\"path\":[\"conseguiu_emitir_certidao_negativa\"]},\"_p_cpf_cnpj\":{\"ret_value\":\"text\",\"caption\":\"cpf_cnpj\",\"sample_value\":\"11.111.111/1111-11\",\"path\":[\"cpf_cnpj\"]},\"_p_emissao_datahora\":{\"ret_value\":\"text\",\"caption\":\"emissao_datahora\",\"sample_value\":\"11/11/1111 11:11:11\",\"path\":[\"emissao_datahora\"]},\"_p_mensagem\":{\"ret_value\":\"text\",\"caption\":\"mensagem\",\"sample_value\":\"Exemplo de texto\",\"path\":[\"mensagem\"]},\"_p_nome\":{\"ret_value\":\"text\",\"caption\":\"nome\",\"sample_value\":\"Nome de Exemplo\",\"path\":[\"nome\"]},\"_p_site_receipt\":{\"ret_value\":\"text\",\"caption\":\"site_receipt\",\"sample_value\":\"https://www.exemplo.com/exemplo-de-url\",\"path\":[\"site_receipt\"]}}}}",
+            "url": "https://api.infosimples.com/api/v2/consultas/tribunal/trf1/certidao?&timeout=600&cpf=[CPF]&cnpj=[CNPJ]&tipo=[Tipo]&orgao=[Orgão]&considera_filiais=",
+            "url_params": {
+                "AAD": {
+                    "allow_blank": true,
+                    "doc": "o CPF da pessoa a qual você está pesquisando",
+                    "key": "CPF",
+                    "private": true,
+                    "value": ""
+                },
+                "AAE": {
+                    "allow_blank": true,
+                    "doc": "o CNPJ da empresa a qual você está pesquisando",
+                    "key": "CNPJ",
+                    "private": true,
+                    "value": ""
+                },
+                "AAF": {
+                    "doc": "o tipo de declaração:\nCIVEL para Cível.\nCRIMINAL para Criminal\nELEITORAL para Fins Eleitorais (Lei da Ficha Limpa)",
+                    "key": "Tipo",
+                    "private": true,
+                    "value": ""
+                },
+                "AAG": {
+                    "doc": "O estado ou a instância a qual será pesquisado:\nAC para Seção Judiciária do Estado do Acre.\nAM para Seção Judiciária do Estado do Amazonas.\nAP para Seção Judiciária do Estado do Amapá.\nBA para Seção Judiciária do Estado da Bahia.\nDF para Seção Judiciária do Estado do Distrito Federal.\nGO para Seção Judiciária do Estado de Goiás.\nMA para Seção Judiciária do Estado do Maranhão.\nMT para Seção Judiciária do Estado de Mato Grosso.\nPA para Seção Judiciária do Estado do Pará.\nPI para Seção Judiciária do Estado do Piauí.\nRO para Seção Judiciária do Estado de Rondônia.\nRR para Seção Judiciária do Estado de Roraima.\nTO para Seção Judiciária do Estado do Tocantins.\nTRF1 para Tribunal Regional Federal da 1ª Região.\n1_GRAU para Varas e Juizados (Todo o 1º Grau).\n1_2_GRAU para (1º e 2º Graus).\nCaso esteja em branco, será utilizada a opção 1_2_GRAU.",
+                    "key": "Orgão",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAH": {
+            "initialized": true,
+            "method": "get",
+            "name": "Certidão Quitação Eleitoral",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1676752063893x765959312585523200.plugin_api.AAH",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAH\":{\"caption\":\"Certidão Quitação Eleitoral\",\"fields\":{\"_p_code\":{\"ret_value\":\"number\",\"caption\":\"code\",\"sample_value\":200,\"path\":[\"code\"]},\"_p_code_message\":{\"ret_value\":\"text\",\"caption\":\"code_message\",\"sample_value\":\"A requisição foi processada com sucesso.\",\"path\":[\"code_message\"]},\"_p_header.api_version\":{\"ret_value\":\"text\",\"caption\":\"header api_version\",\"sample_value\":\"v2\",\"path\":[\"header\",\"api_version\"]},\"_p_header.service\":{\"ret_value\":\"text\",\"caption\":\"header service\",\"sample_value\":\"tse/certidao\",\"path\":[\"header\",\"service\"]},\"_p_header.parameters.name\":{\"ret_value\":\"text\",\"caption\":\"header parameters name\",\"sample_value\":\"Nome de Exemplo\",\"path\":[\"header\",\"parameters\",\"name\"]},\"_p_header.parameters.birthdate\":{\"ret_value\":\"text\",\"caption\":\"header parameters birthdate\",\"sample_value\":\"1111-11-11\",\"path\":[\"header\",\"parameters\",\"birthdate\"]},\"_p_header.parameters.cpf\":{\"ret_value\":\"text\",\"caption\":\"header parameters cpf\",\"sample_value\":\"11111111111\",\"path\":[\"header\",\"parameters\",\"cpf\"]},\"_p_header.parameters.mother\":{\"ret_value\":\"text\",\"caption\":\"header parameters mother\",\"sample_value\":\"Nome de Exemplo\",\"path\":[\"header\",\"parameters\",\"mother\"]},\"_p_header.parameters.father\":{\"ret_value\":\"text\",\"caption\":\"header parameters father\",\"sample_value\":\"Nome de Exemplo\",\"path\":[\"header\",\"parameters\",\"father\"]},\"_p_header.client_name\":{\"ret_value\":\"text\",\"caption\":\"header client_name\",\"sample_value\":\"Minha Empresa\",\"path\":[\"header\",\"client_name\"]},\"_p_header.token_name\":{\"ret_value\":\"text\",\"caption\":\"header token_name\",\"sample_value\":\"Token de Produção\",\"path\":[\"header\",\"token_name\"]},\"_p_header.billable\":{\"ret_value\":\"boolean\",\"caption\":\"header billable\",\"sample_value\":true,\"path\":[\"header\",\"billable\"]},\"_p_header.price\":{\"ret_value\":\"text\",\"caption\":\"header price\",\"sample_value\":\"0.24\",\"path\":[\"header\",\"price\"]},\"_p_header.requested_at\":{\"ret_value\":\"text\",\"caption\":\"header requested_at\",\"sample_value\":\"2020-05-22T15:24:24.000-03:00\",\"path\":[\"header\",\"requested_at\"]},\"_p_header.elapsed_time_in_milliseconds\":{\"ret_value\":\"number\",\"caption\":\"header elapsed_time_in_milliseconds\",\"sample_value\":339,\"path\":[\"header\",\"elapsed_time_in_milliseconds\"]},\"_p_header.remote_ip\":{\"ret_value\":\"text\",\"caption\":\"header remote_ip\",\"sample_value\":\"111.111.111.111\",\"path\":[\"header\",\"remote_ip\"]},\"_p_header.signature\":{\"ret_value\":\"text\",\"caption\":\"header signature\",\"sample_value\":\"U2FsdGVkX1+uJDwQXYEl08RIx/MfgwkL6AGY0DxqPqulTTHGbTj6nY8nf07TfUmZ2JbS3QaUn8CUS/NrozrkQQ==\",\"path\":[\"header\",\"signature\"]},\"_p_data_count\":{\"ret_value\":\"number\",\"caption\":\"data_count\",\"sample_value\":1,\"path\":[\"data_count\"]},\"_p_data\":{\"ret_value\":\"list.api.1676752063893x765959312585523200.plugin_api.AAH.data\",\"caption\":\"data\",\"path\":[\"data\"]}}},\"plugin_api.AAH.data\":{\"caption\":\"Certidão Quitação Eleitoral data\",\"fields\":{\"_p_autenticidade\":{\"ret_value\":\"text\",\"caption\":\"autenticidade\",\"sample_value\":\"São Paulo\",\"path\":[\"autenticidade\"]},\"_p_biometria_coletada\":{\"ret_value\":\"boolean\",\"caption\":\"biometria_coletada\",\"sample_value\":true,\"path\":[\"biometria_coletada\"]},\"_p_data_domicilio\":{\"ret_value\":\"text\",\"caption\":\"data_domicilio\",\"sample_value\":\"11/11/1111\",\"path\":[\"data_domicilio\"]},\"_p_data_nascimento\":{\"ret_value\":\"text\",\"caption\":\"data_nascimento\",\"sample_value\":\"11/11/1111\",\"path\":[\"data_nascimento\"]},\"_p_emissao_datahora\":{\"ret_value\":\"text\",\"caption\":\"emissao_datahora\",\"sample_value\":\"11/11/11 11:11\",\"path\":[\"emissao_datahora\"]},\"_p_municipio\":{\"ret_value\":\"text\",\"caption\":\"municipio\",\"sample_value\":\"São Paulo\",\"path\":[\"municipio\"]},\"_p_nome\":{\"ret_value\":\"text\",\"caption\":\"nome\",\"sample_value\":\"Nome de Exemplo\",\"path\":[\"nome\"]},\"_p_quite\":{\"ret_value\":\"boolean\",\"caption\":\"quite\",\"sample_value\":true,\"path\":[\"quite\"]},\"_p_secao\":{\"ret_value\":\"text\",\"caption\":\"secao\",\"sample_value\":\"0174\",\"path\":[\"secao\"]},\"_p_titulo_eleitoral\":{\"ret_value\":\"text\",\"caption\":\"titulo_eleitoral\",\"sample_value\":\"Nome de Exemplo\",\"path\":[\"titulo_eleitoral\"]},\"_p_uf\":{\"ret_value\":\"text\",\"caption\":\"uf\",\"sample_value\":\"SP\",\"path\":[\"uf\"]},\"_p_zona\":{\"ret_value\":\"text\",\"caption\":\"zona\",\"sample_value\":\"259\",\"path\":[\"zona\"]},\"_p_site_receipt\":{\"ret_value\":\"text\",\"caption\":\"site_receipt\",\"sample_value\":null,\"path\":[\"site_receipt\"]}}}}",
+            "url": "https://api.infosimples.com/api/v2/consultas/tse/certidao?&timeout=600&name=[Nome inteiro]&birthdate=[Aniversário ISO]&cpf=[CPF]&titulo_eleitoral=[Título de eleitor]&mother=[Nome da Mãe]&father=[Nome do Pai]",
+            "url_params": {
+                "AAI": {
+                    "doc": "",
+                    "key": "Nome inteiro",
+                    "private": true,
+                    "value": "Nome completo da pessoa a qual você está pesquisando"
+                },
+                "AAJ": {
+                    "doc": "aniversário da pessoa em ISO\nPor exemplo: 06/07/1992 fica 1992-07-06.\nA função de conversão está disponível no bubble, em :formatted as simplifyed extended ISO",
+                    "key": "Aniversário ISO",
+                    "private": true,
+                    "value": ""
+                },
+                "AAK": {
+                    "doc": "o CPF da pessoa a qual você está pesquisando",
+                    "key": "CPF",
+                    "private": true,
+                    "value": ""
+                },
+                "AAL": {
+                    "doc": "o número do título eleitoral da pessoa a qual você está pesquisando",
+                    "key": "Título de eleitor",
+                    "private": true,
+                    "value": ""
+                },
+                "AAM": {
+                    "doc": "o nome da mãe da pessoa a qual você está pesquisando",
+                    "key": "Nome da Mãe",
+                    "private": true,
+                    "value": ""
+                },
+                "AAN": {
+                    "doc": "o nome do pai da pessoa a qual você está pesquisando",
+                    "key": "Nome do Pai",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAO": {
+            "initialized": true,
+            "method": "get",
+            "name": "Certidão de nada consta TJDFT",
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1676752063893x765959312585523200.plugin_api.AAO",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAO\":{\"caption\":\"Certidão de nada consta TJDFT\",\"fields\":{\"_p_code\":{\"ret_value\":\"number\",\"caption\":\"code\",\"sample_value\":200,\"path\":[\"code\"]},\"_p_code_message\":{\"ret_value\":\"text\",\"caption\":\"code_message\",\"sample_value\":\"A requisição foi processada com sucesso.\",\"path\":[\"code_message\"]},\"_p_header.api_version\":{\"ret_value\":\"text\",\"caption\":\"header api_version\",\"sample_value\":\"v2\",\"path\":[\"header\",\"api_version\"]},\"_p_header.product\":{\"ret_value\":\"text\",\"caption\":\"header product\",\"sample_value\":\"Consultas\",\"path\":[\"header\",\"product\"]},\"_p_header.service\":{\"ret_value\":\"text\",\"caption\":\"header service\",\"sample_value\":\"tribunal/tjdf/nada-consta\",\"path\":[\"header\",\"service\"]},\"_p_header.parameters.cpf\":{\"ret_value\":\"text\",\"caption\":\"header parameters cpf\",\"sample_value\":\"123.456.789-01\",\"path\":[\"header\",\"parameters\",\"cpf\"]},\"_p_header.parameters.nome_mae\":{\"ret_value\":\"text\",\"caption\":\"header parameters nome_mae\",\"sample_value\":\"Exemplo de Nome\",\"path\":[\"header\",\"parameters\",\"nome_mae\"]},\"_p_header.parameters.nome_pai\":{\"ret_value\":\"text\",\"caption\":\"header parameters nome_pai\",\"sample_value\":\"Exemplo de Nome\",\"path\":[\"header\",\"parameters\",\"nome_pai\"]},\"_p_header.parameters.tipo_certidao\":{\"ret_value\":\"text\",\"caption\":\"header parameters tipo_certidao\",\"sample_value\":\"CIVEL\",\"path\":[\"header\",\"parameters\",\"tipo_certidao\"]},\"_p_header.client_name\":{\"ret_value\":\"text\",\"caption\":\"header client_name\",\"sample_value\":\"Minha Empresa\",\"path\":[\"header\",\"client_name\"]},\"_p_header.token_name\":{\"ret_value\":\"text\",\"caption\":\"header token_name\",\"sample_value\":\"Token de Produção\",\"path\":[\"header\",\"token_name\"]},\"_p_header.billable\":{\"ret_value\":\"boolean\",\"caption\":\"header billable\",\"sample_value\":true,\"path\":[\"header\",\"billable\"]},\"_p_header.price\":{\"ret_value\":\"text\",\"caption\":\"header price\",\"sample_value\":\"0.24\",\"path\":[\"header\",\"price\"]},\"_p_header.requested_at\":{\"ret_value\":\"text\",\"caption\":\"header requested_at\",\"sample_value\":\"2022-12-15T16:43:04.000-03:00\",\"path\":[\"header\",\"requested_at\"]},\"_p_header.elapsed_time_in_milliseconds\":{\"ret_value\":\"number\",\"caption\":\"header elapsed_time_in_milliseconds\",\"sample_value\":710,\"path\":[\"header\",\"elapsed_time_in_milliseconds\"]},\"_p_header.remote_ip\":{\"ret_value\":\"text\",\"caption\":\"header remote_ip\",\"sample_value\":\"111.111.111.111\",\"path\":[\"header\",\"remote_ip\"]},\"_p_header.signature\":{\"ret_value\":\"text\",\"caption\":\"header signature\",\"sample_value\":\"U2FsdGVkX18DtlyyXXqR1beSqjploBEy8WDs3TXQQC2PCh1+C9dXlTXHvzq4FMlL6kOEug5gx2Q69nAAr7hYYw==\",\"path\":[\"header\",\"signature\"]},\"_p_data_count\":{\"ret_value\":\"number\",\"caption\":\"data_count\",\"sample_value\":1,\"path\":[\"data_count\"]},\"_p_data\":{\"ret_value\":\"list.api.1676752063893x765959312585523200.plugin_api.AAO.data\",\"caption\":\"data\",\"path\":[\"data\"]},\"_p_site_receipts\":{\"ret_value\":\"list.text\",\"caption\":\"site_receipts\",\"sample_value\":\"https://www.exemplo.com/exemplo-de-url\",\"path\":[\"site_receipts\"]}}},\"plugin_api.AAO.data\":{\"caption\":\"Certidão de nada consta TJDFT data\",\"fields\":{\"_p_datahora_emissao\":{\"ret_value\":\"text\",\"caption\":\"datahora_emissao\",\"sample_value\":\"15/12/2022 16:30:39\",\"path\":[\"datahora_emissao\"]},\"_p_mensagem\":{\"ret_value\":\"text\",\"caption\":\"mensagem\",\"sample_value\":\"Exemplo de mensagem\",\"path\":[\"mensagem\"]},\"_p_nada_consta\":{\"ret_value\":\"boolean\",\"caption\":\"nada_consta\",\"sample_value\":true,\"path\":[\"nada_consta\"]},\"_p_observacoes\":{\"ret_value\":\"text\",\"caption\":\"observacoes\",\"sample_value\":\"a) Os dados de identificação são de responsabilidade do solicitante da certidão, devendo a titularidade ser conferida b) A certidão será emitida de acordo com as informações inseridas no banco de dados. Em caso de exibição de c) A certidão será negativa quando não for possível a individualização dos processos por carência de dados do Poder d) A certidão cível contempla ações cíveis, execuções fiscais, execuções e insolvências civis, falências, recuperações e) A certidão cível atende ao disposto no inciso II do artigo 31 da Lei 8.666/1993. f) Medida prevista no artigo 26 do Código Penal, sentença não transitada em julgado.\",\"path\":[\"observacoes\"]},\"_p_selo_seguranca\":{\"ret_value\":\"text\",\"caption\":\"selo_seguranca\",\"sample_value\":\"1111.AAA.1A1A.11AA.A1AA.AA11.1AAA\",\"path\":[\"selo_seguranca\"]},\"_p_validade\":{\"ret_value\":\"text\",\"caption\":\"validade\",\"sample_value\":\"30 dias\",\"path\":[\"validade\"]},\"_p_site_receipt\":{\"ret_value\":\"text\",\"caption\":\"site_receipt\",\"sample_value\":\"https://www.exemplo.com/exemplo-de-url\",\"path\":[\"site_receipt\"]}}}}",
+            "url": "https://api.infosimples.com/api/v2/consultas/tribunal/tjdf/nada-consta?&timeout=600&cpf=[CPF]&nome_pai=[Nome do pai]&nome_mae=[Nome da mãe]&tipo_certidao=[tipo]",
+            "url_params": {
+                "AAQ": {
+                    "doc": "o CPF da pessoa a qual você está pesquisando",
+                    "key": "CPF",
+                    "private": true,
+                    "value": ""
+                },
+                "AAR": {
+                    "doc": "o nome do pai da pessoa a qual você está pesquisando",
+                    "key": "Nome do pai",
+                    "private": true,
+                    "value": ""
+                },
+                "AAS": {
+                    "doc": "o nome da mãe da pessoa a qual você está pesquisando",
+                    "key": "Nome da mãe",
+                    "private": true,
+                    "value": ""
+                },
+                "AAT": {
+                    "doc": "o tipo de declaração:\ncivel\ncriminal",
+                    "key": "tipo",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        }
+    },
+    "human": "infosimples",
+    "shared_params": {
+        "AAZ": {
+            "doc": "",
+            "key": "Token",
+            "private": true,
+            "visibility": "secret"
+        }
+    }
+}

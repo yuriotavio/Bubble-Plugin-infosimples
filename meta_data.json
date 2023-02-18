@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical"
+    },
+    "description": "incorpora as pesquisas do infosimples ao bubble",
+    "image": "//s3.amazonaws.com/appforest_uf/f1676752121215x375772989584908500/551801.gif",
+    "license": "open_source",
+    "name": "infosimples",
+    "plugin_instructions": "O resultado da pesquisa é um documento em formato de link que fica em site_receipts"
+}
